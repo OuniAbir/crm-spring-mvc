@@ -7,5 +7,7 @@ import com.crm.springdemo.entity.Customer;
 public interface CustomerDAO {
 
 	public List<Customer> getCustomer();
+
+	public void saveCustomer(Customer customer);
 	
 }
