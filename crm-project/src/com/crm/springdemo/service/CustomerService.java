@@ -11,5 +11,7 @@ public void saveCustomer(Customer customer);
 
 public Customer getCustomers(int theId);
 
+public void deleteCustomer(int theId);
+
 	
 }
